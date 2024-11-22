@@ -63,7 +63,7 @@ const projects: Project[] = [
     id: 3,
     title: "Programming Exercises",
     description: "Here are descriptions of some of the assignments I completed in Programming 1 - IDATT1003",
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg",
+    image: "https://eodhd.com/financial-apis/wp-content/uploads/2017/11/Java-Stock-API-Example.png",
     gallery: [
     ],
     tags: ["Java"],
