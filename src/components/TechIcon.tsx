@@ -21,7 +21,7 @@ export default function TechIcon({ name, icon, color, customIcon }: TechIconProp
   return (
     <div className="group relative flex flex-col items-center">
       <div
-        className="w-12 h-12 flex items-center justify-center rounded-xl bg-gray-800/50 backdrop-blur-sm 
+        className="w-12 h-12 flex items-center justify-center rounded-xl bg-periglacial-blue-800/50 backdrop-blur-sm 
         hover:scale-110 transition-transform duration-300"
       >
         {customIcon && customIcons[customIcon] ? (
@@ -40,7 +40,7 @@ export default function TechIcon({ name, icon, color, customIcon }: TechIconProp
           )
         )}
       </div>
-      <span className="absolute -bottom-8 px-2 py-1 bg-gray-800 text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+      <span className="absolute -bottom-8 px-2 py-1 bg-periglacial-blue-800 text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
         {name}
       </span>
     </div>

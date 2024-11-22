@@ -108,22 +108,22 @@ export default function ProjectsSection() {
   }
 
   return (
-    <div className="h-screen overflow-y-auto bg-gray-900">
+    <div className="h-screen overflow-y-auto bg-periglacial-blue-900">
       <div className="max-w-7xl mx-auto px-6 py-20">
         <h2 className="text-4xl font-bold text-white mb-4">Featured Projects</h2>
-        <p className="text-gray-400 mb-12 max-w-2xl">
+        <p className="text-periglacial-blue-400 mb-12 max-w-2xl">
           Explore my latest works and side projects (Side projects not added yet).
         </p>
 
         <div className="flex flex-col md:flex-row gap-6 mb-12">
           <div className="relative flex-1">
-            <div className="absolute left-3 top-[13px] text-gray-400">
+            <div className="absolute left-3 top-[13px] text-periglacial-blue-400">
               <Search size={20} />
             </div>
             <input
               type="text"
               placeholder="Search projects..."
-              className="w-full bg-gray-800 text-white rounded-lg pl-12 pr-4 h-12 focus:ring-2 focus:ring-teal-500 outline-none"
+              className="w-full bg-periglacial-blue-800 text-white rounded-lg pl-12 pr-4 h-12 focus:ring-2 focus:ring-periglacial-blue-500 outline-none"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -133,8 +133,8 @@ export default function ProjectsSection() {
               onClick={() => setSelectedTag(null)}
               className={`px-4 py-2 rounded-lg transition-all ${
                 !selectedTag 
-                  ? 'bg-teal-500 text-white' 
-                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                  ? 'bg-periglacial-blue-500 text-white' 
+                  : 'bg-periglacial-blue-800 text-periglacial-blue-400 hover:bg-periglacial-blue-700'
               }`}
             >
               All
@@ -145,8 +145,8 @@ export default function ProjectsSection() {
                 onClick={() => setSelectedTag(tag)}
                 className={`px-4 py-2 rounded-lg transition-all ${
                   selectedTag === tag 
-                    ? 'bg-teal-500 text-white' 
-                    : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                    ? 'bg-periglacial-blue-500 text-white' 
+                    : 'bg-periglacial-blue-800 text-periglacial-blue-400 hover:bg-periglacial-blue-700'
                 }`}
               >
                 {tag}
@@ -159,7 +159,7 @@ export default function ProjectsSection() {
           {filteredProjects.map(project => (
             <div
               key={project.id}
-              className="bg-gray-800 rounded-xl overflow-hidden group hover:transform hover:scale-[1.02] transition-all duration-300 cursor-pointer"
+              className="bg-periglacial-blue-800 rounded-xl overflow-hidden group hover:transform hover:scale-[1.02] transition-all duration-300 cursor-pointer"
               onClick={() => setSelectedProject(project)}
             >
               <div className="relative h-48 overflow-hidden">
@@ -179,16 +179,16 @@ export default function ProjectsSection() {
                     />
                   </div>
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-60" />
+                <div className="absolute inset-0 bg-gradient-to-t from-periglacial-blue-900 to-transparent opacity-60" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-                <p className="text-gray-400 mb-4 line-clamp-2">{project.description}</p>
+                <p className="text-periglacial-blue-400 mb-4 line-clamp-2">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map(tag => (
                     <span
                       key={tag}
-                      className="text-sm px-3 py-1 bg-gray-700 text-periglacial-blue-400 rounded-full"
+                      className="text-sm px-3 py-1 bg-periglacial-blue-700 text-periglacial-blue-400 rounded-full"
                     >
                       {tag}
                     </span>
@@ -199,7 +199,7 @@ export default function ProjectsSection() {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+                    className="flex items-center gap-2 text-periglacial-blue-400 hover:text-white transition-colors"
                     onClick={e => e.stopPropagation()}
                   >
                     <Github size={20} />

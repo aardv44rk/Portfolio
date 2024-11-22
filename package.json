@@ -9,8 +9,6 @@
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
-    
-
   },
   "dependencies": {
     "lucide-react": "^0.344.0",

@@ -24,12 +24,12 @@ export default function Navigation({ currentSection, setCurrentSection }: Naviga
               onClick={() => setCurrentSection(index)}
               className={`group relative flex items-center justify-center w-12 h-12 rounded-full 
                 ${currentSection === index 
-                  ? 'bg-teal-500 text-white' 
-                  : 'bg-gray-800/50 text-gray-400 hover:bg-gray-800'
+                  ? 'bg-beige-200 text-white' 
+                  : 'bg-periglacial-blue-800/50 text-beige-200 hover:bg-periglacial-blue-800'
                 } backdrop-blur-sm transition-all`}
             >
               <Icon size={20} />
-              <span className="absolute right-full mr-4 px-2 py-1 rounded bg-gray-800 text-white text-sm
+              <span className="absolute right-full mr-4 px-2 py-1 rounded bg-periglacial-blue-800 text-white text-sm
                 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
                 {section.label}
               </span>

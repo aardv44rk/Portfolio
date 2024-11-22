@@ -5,7 +5,7 @@ import svgr from 'vite-plugin-svgr';
 
 
 export default defineConfig({
-  base: 'Portfolio',
+  base: '/Portfolio/',
   plugins: [
             react(), 
             svgr(),
