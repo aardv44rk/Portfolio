@@ -14,7 +14,7 @@ export default function HeroSection({ onNavigate }: HeroSectionProps) {
       {/* Main content */}
       <div className="relative container mx-auto px-6 pt-32 pb-24">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-teal-400 font-medium mb-6 animate-fade-in">
+          <div className="flex items-center gap-2 text-periglacial-blue-400 font-medium mb-6 animate-fade-in">
             <Sparkles size={20} className="animate-pulse" />
             <span>Welcome to my portfolio</span>
           </div>

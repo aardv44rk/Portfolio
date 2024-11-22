@@ -78,7 +78,7 @@ export default function AboutSection() {
           <div className="md:w-1/3">
             <div className="relative aspect-square rounded-2xl overflow-hidden bg-gray-800/50 backdrop-blur-sm">
               <img
-                src="/assets/images/IMG_6409.jpg"
+                src="assets/images/IMG_6409.jpg"
                 alt="Profile"
                 style={{transform: 'rotate(90deg)'}}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
@@ -106,9 +106,9 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {skills.map(({ icon: Icon, title, description, technologies }) => (
             <div key={title} className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6">
-              <Icon size={32} className="text-teal-400 mb-4" />
+              <Icon size={32} className="text-periglacial-blue-300 mb-4" />
               <h3 className="text-xl font-bold mb-2">{title}</h3>
-              <p className="text-gray-400 mb-6">{description}</p>
+              <p className="text-periglacial-blue-100 mb-6">{description}</p>
               <div className="flex flex-wrap gap-4">
                 {technologies.map((tech) =>
                   tech.customIcon ? (
@@ -136,23 +136,23 @@ export default function AboutSection() {
         <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8">
           <h3 className="text-2xl font-bold mb-4">Professional Journey</h3>
           <div className="space-y-6">
-            <div className="border-l-2 border-teal-500 pl-4">
+            <div className="border-l-2 border-periglacial-blue-500 pl-4">
               <h4 className="text-xl font-semibold">Student at NTNU</h4>
-              <p className="text-teal-400">2024 - Present</p>
+              <p className="text-periglacial-blue-400">2024 - Present</p>
               <p className="text-gray-400 mt-2">
                 Starting August 2024 I became a student of Computer Engineering at NTNU.
               </p>
             </div>
             <div className="border-l-2 border-gray-500 pl-4">
               <h4 className="text-xl font-semibold">Hobby Projects</h4>
-              <p className="text-teal-400">2019 - 2023</p>
+              <p className="text-periglacial-blue-400">2019 - 2023</p>
               <p className="text-gray-400 mt-2">
                 From 2019 onwards I have worked on small hobby projects using the technologies mentioned above.
               </p>
             </div>
             <div className="border-l-2 border-gray-700 pl-4">
               <h4 className="text-xl font-semibold">Introduction to Programming</h4>
-              <p className="text-teal-400">2019</p>
+              <p className="text-periglacial-blue-400">2019</p>
               <p className="text-gray-400 mt-2">
                 I took a programming class in high school, which was the start of my journey in technology.
               </p>

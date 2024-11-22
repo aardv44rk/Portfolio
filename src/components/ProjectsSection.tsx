@@ -38,11 +38,11 @@ const projects: Project[] = [
     id: 2,
     title: "Lego EV3 Dynamic Solar Panel",
     description: "My semester assignment in IDATT1004. The assignment was to make a robot using Lego EV3 that is sustainable.",
-    image: "/assets/images/team_image.jpg",
+    image: "assets/images/team_image.jpg",
     gallery: [
-      "/assets/images/robot1.jpg",
-      "/assets/images/robot2.jpg",
-      "/assets/images/robot3.jpg",
+      "assets/images/robot1.jpg",
+      "assets/images/robot2.jpg",
+      "assets/images/robot3.jpg",
     ],
     tags: ["EV3", "MicroPython"],
     features: [
@@ -52,7 +52,7 @@ const projects: Project[] = [
     role: "Meeting Coordinator, Lego Engineer, and Report Writer",
     reflections: "The biggest takeaway from this project was the experience of working in a team. The importance of good communication, planning, and role assignment. This is something that I struggled with at the beginning of the project, but that I have become noticably better at over time.",
     githubUrl: "https://gitlab.stud.idi.ntnu.no/idatx1004-20-v2024/prosjektoppgave.git",
-    pdfUrl: "/assets/idatt1004.pdf",
+    pdfUrl: "assets/idatt1004.pdf",
     technologiesUsed: ["EV3", "MicroPython"],
     teamMembers: ["Mateja Vasic", "Stian Mathisen Myrbekk", "Audun Rosvold", "Oliver Higgins"],
     duration: "3 months",
@@ -188,7 +188,7 @@ export default function ProjectsSection() {
                   {project.tags.map(tag => (
                     <span
                       key={tag}
-                      className="text-sm px-3 py-1 bg-gray-700 text-teal-400 rounded-full"
+                      className="text-sm px-3 py-1 bg-gray-700 text-periglacial-blue-400 rounded-full"
                     >
                       {tag}
                     </span>

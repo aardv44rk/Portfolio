@@ -23,7 +23,7 @@ export default function ProjectDetails({ project, onBack }: ProjectDetailsProps)
         
         <div className="flex gap-4 mb-8">
           {project.tags.map(tag => (
-            <span key={tag} className="px-3 py-1 bg-gray-800 text-teal-400 rounded-full">
+            <span key={tag} className="px-3 py-1 bg-gray-800 text-periglacial-blue-400 rounded-full">
               {tag}
             </span>
           ))}
