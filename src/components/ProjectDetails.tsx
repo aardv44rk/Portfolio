@@ -9,7 +9,7 @@ interface ProjectDetailsProps {
 
 export default function ProjectDetails({ project, onBack }: ProjectDetailsProps) {
   return (
-    <div className="h-screen overflow-y-auto bg-gradient-to-b from-periglacial-blue-900 to-periglacial-blue-800 text-white">
+    <div className="h-screen overflow-y-auto bg-gradient-to-b from-periglacial-blue-600 to-periglacial-blue-700 text-white">
       <div className="max-w-7xl mx-auto px-6 py-20">
         <button 
           onClick={onBack}

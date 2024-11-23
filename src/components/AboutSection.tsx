@@ -72,7 +72,7 @@ const skills = [
 
 export default function AboutSection() {
   return (
-    <div className="h-screen overflow-y-auto bg-gradient-to-b from-periglacial-blue-900 to-periglacial-blue-800 text-white">
+    <div className="h-screen overflow-y-auto bg-gradient-to-b from-periglacial-blue-600 to-periglacial-blue-700 text-white">
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="flex flex-col md:flex-row gap-12 mb-16">
           <div className="md:w-1/3">
@@ -136,22 +136,22 @@ export default function AboutSection() {
         <div className="bg-periglacial-blue-800/50 backdrop-blur-sm rounded-xl p-8">
           <h3 className="text-2xl text-beige-300 font-bold mb-4">Professional Journey</h3>
           <div className="space-y-6">
-            <div className="border-l-2 border-periglacial-blue-500 pl-4">
+            <div className="border-l-2 border-periglacial-blue-400 pl-4">
               <h4 className="text-xl text-beige-200 font-semibold">Student at NTNU</h4>
               <p className="text-white">2024 - Present</p>
               <p className="text-white">
                 Starting August 2024 I became a student of Computer Engineering at NTNU.
               </p>
             </div>
-            <div className="border-l-2 border-periglacial-blue-500 pl-4">
-              <h4 className="text-xl text-beige-200 font-semibold">Hobby Projects</h4>
+            <div className="border-l-2 border-periglacial-blue-600 pl-4">
+              <h4 className="text-xl text-beige-300 font-semibold">Hobby Projects</h4>
               <p className="text-white">2019 - 2023</p>
               <p className="text-white">
                 From 2019 onwards I have worked on small hobby projects using the technologies mentioned above.
               </p>
             </div>
             <div className="border-l-2 border-periglacial-blue-700 pl-4">
-              <h4 className="text-xl text-beige-200 font-semibold">Introduction to Programming</h4>
+              <h4 className="text-xl text-beige-400 font-semibold">Introduction to Programming</h4>
               <p className="text-white">2019</p>
               <p className="text-white">
                 I took a programming class in high school, which was the start of my journey in technology.
